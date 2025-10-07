@@ -26,18 +26,18 @@ const projects = [
         id: 3,
         title: "VerdeVivo app",
         description:
-            "An AI French conversational buddy designed to help users (and myself) practice and learn French through interactive conversation with real-time spelling and grammar corrections and automated feedback.",
+            "Eco-conscious app that empowers users to sustainably adopt greener habits through interactive tools that promoted user education and community-driven solutions.",
         image: "/projects/Project3.png",
         tags: ["Low-Code tools"],
-        demoUrl: "#",
+        demoUrl: "https://drive.google.com/file/d/18lY8cnAqzVN3nw_mMgQEvgJclY9X6ju6/view",
         githubUrl: "#",
     },
     {
         id: 4,
         title: "KiddyByte web",
         description:
-            "An AI French conversational buddy designed to help users (and myself) practice and learn French through interactive conversation with real-time spelling and grammar corrections and automated feedback.",
-        image: "/projects/Project3.png",
+            "AI-powered website for children in Tunisia affected by teacher shortages with 5+ personalized learning plans.",
+        image: "/projects/Project4.png",
         tags: ["Python", "JavaScript", "HTML/CSS"],
         demoUrl: "#",
         githubUrl: "https://github.com/anaserinet/KiddyByte",
