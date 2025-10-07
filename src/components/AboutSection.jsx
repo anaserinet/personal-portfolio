@@ -13,15 +13,15 @@ export const AboutSection = () => {
                     <div className="space-y-6">
 
                         <h3 className="text-2xl font-semi-bold">
-                            Passionate web developer and .....
+                            I’m a Brazilian–French computer science student who grew up in Mexico and now studies in London.
                         </h3>
 
                         <p className="text-muted-foreground">
-                            Who I am. description of what I do....
+                            Moving around the world has taught me how to adapt quickly, embrace change, and stay curious. Computer science became the perfect outlet for that curiosity: it lets me solve real problems, build things that matter, and keep learning every day.
                         </p>
 
                         <p className="text-muted-foreground">
-                            Years of experience, what Im passionate about, where I study....
+                            Currently a Computer Science student at King’s College London, I’m passionate about web development, design, and using tech to make people’s lives a little easier (and prettier!).
                         </p>
 
 

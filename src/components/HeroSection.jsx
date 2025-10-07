@@ -2,6 +2,7 @@ import { ArrowDown } from "lucide-react"
 
 export const HeroSection = () => {
     return (
+
         <section
             id="hero"
             className="relative min-h-screen flex flex-col items-center justify-center px-4"
@@ -14,7 +15,7 @@ export const HeroSection = () => {
                         <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Monteiro </span>
                     </h1>
                     <p className="test-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        Bio about myself......
+                        A passionate Computer Science student and developer who loves solving problems through coding.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
