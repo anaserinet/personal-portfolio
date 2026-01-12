@@ -59,13 +59,13 @@ export const ProjectSection = () => {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"> {/* ✅ added spacing */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project) => (
                     <div
                         key={project.id}
                         className="group bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
                     >
-                        <div className="h-48 overflow-hidden"> {/* ✅ fixed typo "overlow" */}
+                        <div className="h-48 overflow-hidden">
                             <img
                                 src={project.image}
                                 alt={project.title}
