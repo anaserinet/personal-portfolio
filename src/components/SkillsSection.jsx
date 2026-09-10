@@ -5,32 +5,42 @@ import { cn } from "./lib/utils"
 
 
 const skills = [
-    //ADD AWS STUFF
-    //Frontend
-    { name: "JavaScript", level: 75, category: "frontend" },
-    { name: "HTML/CSS", level: 90, category: "frontend" },
-    { name: "React", level: 75, category: "frontend" },
-    { name: "Tailwind CSS", level: 70, category: "frontend" },
-
-    //Backend
-    { name: "Java", level: 92, category: "backend" },
-    { name: "C++", level: 92, category: "backend" },
-    { name: "Python", level: 90, category: "backend" },
-    { name: "Node.js", level: 70, category: "backend" },
-
-    //Tools
-    { name: "Git/Github", level: 85, category: "tools" },
-    { name: "Figma", level: 70, category: "tools" },
-
     //Languages
-    { name: "English", level: 100, category: "languages" },
-    { name: "Spanish", level: 100, category: "languages" },
-    { name: "Portuguese", level: 100, category: "languages" },
-    { name: "French", level: 70, category: "languages" },
+    { name: "Python", level: 92, category: "languages" },
+    { name: "TypeScript/JavaScript", level: 90, category: "languages" },
+    { name: "SQL", level: 85, category: "languages" },
+    { name: "Java", level: 80, category: "languages" },
+    { name: "C#", level: 75, category: "languages" },
+    { name: "C++", level: 70, category: "languages" },
+
+    //Systems & Data
+    { name: "FastAPI", level: 90, category: "systems & data" },
+    { name: "PostgreSQL", level: 85, category: "systems & data" },
+    { name: "Power BI", level: 85, category: "systems & data" },
+    { name: "Redis", level: 78, category: "systems & data" },
+    { name: "Azure", level: 75, category: "systems & data" },
+    { name: "AWS", level: 75, category: "systems & data" },
+    { name: "Docker", level: 72, category: "systems & data" },
+    { name: "Unity/HLSL", level: 70, category: "systems & data" },
+    { name: "Machine Learning", level: 70, category: "systems & data" },
+
+    //Practices
+    { name: "Git/GitHub", level: 90, category: "practices" },
+    { name: "Code Review", level: 88, category: "practices" },
+    { name: "Test-Driven Development", level: 85, category: "practices" },
+    { name: "Agile (Scrum)", level: 85, category: "practices" },
+    { name: "System Architecture", level: 80, category: "practices" },
+
+    //Spoken
+    { name: "Spanish", level: 100, category: "spoken" },
+    { name: "Portuguese", level: 100, category: "spoken" },
+    { name: "English", level: 95, category: "spoken" },
+    { name: "French", level: 60, category: "spoken" },
+    { name: "German", level: 25, category: "spoken" },
 ];
 
 //to add/remove categories, its here
-const categories = ["all", "frontend", "backend", "tools", "languages"]
+const categories = ["all", "languages", "systems & data", "practices", "spoken"]
 
 
 

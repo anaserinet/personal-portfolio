@@ -54,7 +54,7 @@ export const ProjectSection = () => {
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
                     Here are some of my recent projects. Each project was
-                    designed to solve a problem — either for personal use,
+                    designed to solve a problem, either for personal use,
                     humanitarian purposes, or a hackathon.
                 </p>
             </div>
